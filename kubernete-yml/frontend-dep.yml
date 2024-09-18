@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: jamallasomasekhar/techdome-frontend:latest
+        image: jamallasomasekhar/techdome-frontend:v5
         envFrom:
           - configMapRef:
               name: my-env
@@ -24,8 +24,5 @@ spec:
             cpu: "500m"
         ports:
         - containerPort: 3000
-    strategy:
-      type: RollingUpdate
-      rollingUpdate:
-        maxSurge: 1
-        maxUnavailable: 1
+
+
