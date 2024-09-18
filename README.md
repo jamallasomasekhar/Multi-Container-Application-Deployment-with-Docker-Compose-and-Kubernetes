@@ -1,1 +1,48 @@
 # Multi-Container-Application-Deployment-with-Docker-Compose-and-Kubernetes
+This project demonstrates the deployment of a multi-container application using Docker Compose and Kubernetes. The application consists of a frontend, backend, and database.
+Project Repositories
+
+Backend: https://github.com/Anand-1432/Techdome-backend
+Frontend: https://github.com/Anand-1432/Techdome-frontend
+
+Application Architecture
+![Techdome drawio](https://github.com/user-attachments/assets/e8aea3c8-5ca3-4e87-93b6-7c6f91f04819)
+
+Tools Used
+
+Docker
+Docker Compose
+Minikube
+Kubernetes
+
+### Deployment Strategy
+Our deployment strategy involves two stages:
+Local Development: Using Docker Compose
+Allows for easy setup and testing of the entire application stack
+Simplifies environment consistency across development machines
+
+Production-like Environment: Using Kubernetes
+Provides scalability and robustness for production workloads
+Allows for easy management of multiple containers and services
+
+### Building and Deploying the Application
+Using Docker Compose
+![image](https://github.com/user-attachments/assets/eb617f9a-122d-4b04-a5a5-7fe0c89ee65e)
+
+Using Kubernetes
+[Provide instructions for deploying to a local Kubernetes cluster using Minikube]
+Application Functionality
+[Describe the main features and functionality of your application]
+Screenshots
+[Include screenshots of your application here]
+### Bonus Features
+[If you implemented any bonus features, describe them here]
+
+Infrastructure scaling based on load or resource utilization using Terraform
+Unit tests for Terraform code and automation scripts
+Rollback strategy for infrastructure changes
+
+### Documentation
+For more detailed information about the application architecture, deployment strategy, and management instructions, please refer to the Documentation.
+### Demonstration
+[Include a link to your recording or additional screenshots demonstrating the application's functionality and deployment approach]
