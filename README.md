@@ -42,11 +42,13 @@ Screenshots
 
 
 ### Bonus Features
-[If you implemented any bonus features, describe them here]
+Bonus Features
+Infrastructure Scaling: Implemented Horizontal Pod Autoscaler (HPA) for the backend, scaling the replicas based on CPU utilization. If CPU usage exceeds 80%, additional backend replicas are automatically created to handle increased load.
 
-Infrastructure scaling based on load or resource utilization using Terraform
-Unit tests for Terraform code and automation scripts
-Rollback strategy for infrastructure changes
+Rollback Strategy: Established a rollback strategy for infrastructure changes by maintaining version control of Kubernetes deployments, allowing easy reversion to a previous state if necessary.
+
+
+
 
 ### Documentation
 For more detailed information about the application architecture, deployment strategy, and management instructions, please refer to the Documentation.
