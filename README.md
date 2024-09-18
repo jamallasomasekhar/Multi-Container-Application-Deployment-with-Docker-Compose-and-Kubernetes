@@ -33,9 +33,13 @@ Using Kubernetes
 ![image](https://github.com/user-attachments/assets/c6f28495-92ad-4d26-923a-134165ae0410)
 
 Application Functionality
-[Describe the main features and functionality of your application]
+![image](https://github.com/user-attachments/assets/41ab5ece-480e-47d7-862c-454fed49819a)
+
 Screenshots
 ![image](https://github.com/user-attachments/assets/3dbe6e1d-cbca-42ba-8f63-54db903eecdc)
+
+![Screenshot 2024-09-19 010554](https://github.com/user-attachments/assets/fb6d345c-11ab-4453-8b04-5b855081e86b)
+
 
 ### Bonus Features
 [If you implemented any bonus features, describe them here]
