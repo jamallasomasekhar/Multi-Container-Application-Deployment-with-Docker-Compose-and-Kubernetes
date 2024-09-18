@@ -30,11 +30,13 @@ Using Docker Compose
 ![image](https://github.com/user-attachments/assets/eb617f9a-122d-4b04-a5a5-7fe0c89ee65e)
 
 Using Kubernetes
-[Provide instructions for deploying to a local Kubernetes cluster using Minikube]
+![image](https://github.com/user-attachments/assets/c6f28495-92ad-4d26-923a-134165ae0410)
+
 Application Functionality
 [Describe the main features and functionality of your application]
 Screenshots
-[Include screenshots of your application here]
+![image](https://github.com/user-attachments/assets/3dbe6e1d-cbca-42ba-8f63-54db903eecdc)
+
 ### Bonus Features
 [If you implemented any bonus features, describe them here]
 
