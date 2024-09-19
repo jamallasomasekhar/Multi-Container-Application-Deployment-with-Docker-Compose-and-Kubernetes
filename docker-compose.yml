@@ -1,8 +1,8 @@
 services:
     frontend:
-       image: jamallasomasekhar/techdome-frontend:v5
+       image: jamallasomasekhar/techdome-frontend:v7
        ports:
-         - 3000:3000
+         - 80:80
        env_file:
         - .env
        depends_on:
@@ -10,7 +10,7 @@ services:
        networks:
          - techdome-networks
     backend:
-      image: jamallasomasekhar/techdome-backend
+      image: jamallasomasekhar/techdome-backend:v3
       ports:
         - 4000:4000
       env_file:

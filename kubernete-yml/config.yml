@@ -4,5 +4,8 @@ metadata:
   name: my-env
 data:
   REACT_APP_BASE_URL: "http://backend:5000"
-  DB: "mongodb://127.0.0.1:27017/"
+  DB: "mongodb://127.0.0.1:27017/test"
   PORT: "4000"
+  CLOUD_NAME: "dyv7xyvpo"
+  API_KEY: "963267925522957"
+  API_SECRET: "tK98j9wCXoFYxBfVRg5NYQJ7i68"

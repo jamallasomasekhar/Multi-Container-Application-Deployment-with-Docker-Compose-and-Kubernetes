@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   name: frontend
 spec:
-  replicas: 2
   selector:
     matchLabels:
       app: frontend
@@ -14,13 +13,13 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: jamallasomasekhar/techdome-frontend:v5
+        image: jamallasomasekhar/techdome-frontend:v7
         envFrom:
           - configMapRef:
               name: my-env
         resources:
           limits:
-            memory: "128Mi"
+            memory: "500Mi"
             cpu: "500m"
         ports:
         - containerPort: 3000
