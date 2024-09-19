@@ -33,16 +33,22 @@ Using Kubernetes
 ![image](https://github.com/user-attachments/assets/c6f28495-92ad-4d26-923a-134165ae0410)
 
 Application Functionality
-[Describe the main features and functionality of your application]
+![image](https://github.com/user-attachments/assets/41ab5ece-480e-47d7-862c-454fed49819a)
+
 Screenshots
 ![image](https://github.com/user-attachments/assets/3dbe6e1d-cbca-42ba-8f63-54db903eecdc)
 
-### Bonus Features
-[If you implemented any bonus features, describe them here]
+![Screenshot 2024-09-19 010554](https://github.com/user-attachments/assets/fb6d345c-11ab-4453-8b04-5b855081e86b)
 
-Infrastructure scaling based on load or resource utilization using Terraform
-Unit tests for Terraform code and automation scripts
-Rollback strategy for infrastructure changes
+
+### Bonus Features
+Bonus Features
+Infrastructure Scaling: Implemented Horizontal Pod Autoscaler (HPA) for the backend, scaling the replicas based on CPU utilization. If CPU usage exceeds 80%, additional backend replicas are automatically created to handle increased load.
+
+Rollback Strategy: Established a rollback strategy for infrastructure changes by maintaining version control of Kubernetes deployments, allowing easy reversion to a previous state if necessary.
+
+
+
 
 ### Documentation
 For more detailed information about the application architecture, deployment strategy, and management instructions, please refer to the Documentation.
