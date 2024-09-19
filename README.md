@@ -40,6 +40,10 @@ Screenshots
 
 ![Screenshot 2024-09-19 010554](https://github.com/user-attachments/assets/fb6d345c-11ab-4453-8b04-5b855081e86b)
 
+Frontend results
+![image](https://github.com/user-attachments/assets/ad50a594-3654-4d3e-b237-1b03398cc7b3)
+
+
 
 ### Bonus Features
 Bonus Features
