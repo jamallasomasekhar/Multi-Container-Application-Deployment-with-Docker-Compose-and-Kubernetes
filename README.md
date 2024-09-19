@@ -56,5 +56,7 @@ Rollback Strategy: Established a rollback strategy for infrastructure changes by
 
 ### Documentation
 For more detailed information about the application architecture, deployment strategy, and management instructions, please refer to the Documentation.
+[Multi-Container Application Deployment with Docker Compose and Kubernetes.docx](https://github.com/user-attachments/files/17054219/Multi-Container.Application.Deployment.with.Docker.Compose.and.Kubernetes.docx)
+
 ### Demonstration
 [Include a link to your recording or additional screenshots demonstrating the application's functionality and deployment approach]
